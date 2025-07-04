@@ -1,4 +1,4 @@
-# ✨ Natasha’s Sensory Fidget Macropad
+# Natasha’s Sensory Fidget Macropad!
 
 A 5-key tactile RGB macropad built with the Seeed Studio XIAO RP2040. This project is designed for sensory feedback, creative expression, and workflow speed — featuring bright colored LEDs that change with each keypress.
 
