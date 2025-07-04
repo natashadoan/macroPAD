@@ -1,96 +1,76 @@
-# macroPAD
-# Natasha’s Sensory Fidget v1
+# ✨ Natasha’s Sensory Fidget Macropad
 
-A 5-key macropad powered by the Seeed Studio XIAO RP2040, designed as a colorful, tactile fidget tool that also sends useful keyboard shortcuts — with reactive RGB lighting using SK6812Mini LEDs!
-
----
-
-## 💡 Features
-
-- 🎛️ 5 tactile pushbuttons
-- 🌈 2 SK6812Mini RGB LEDs (addressable NeoPixels)
-- ⌨️ Sends keyboard shortcuts (Copy, Paste, etc.)
-- 🧠 Unique LED color feedback for each key
-- 🔌 USB HID device — plug and use with any computer
+A 5-key tactile RGB macropad built with the Seeed Studio XIAO RP2040. This project is designed for sensory feedback, creative expression, and workflow speed — featuring bright colored LEDs that change with each keypress.
 
 ---
 
-## 🔧 Hardware
+## an overview
 
-- **Microcontroller:** XIAO RP2040 (CircuitPython-compatible)
-- **Switches:** 5x pushbuttons (direct GPIO)
-- **LEDs:** 2x SK6812Mini (WS2812-compatible)
-- **PCB Design:** Custom (KiCad) — see `/pcb/` folder
+![Hackpad Overview](images/hackpad_overview.png)
 
----
-
-## 🗂️ Key Functions
-
-| Key | Shortcut | LED Color     |
-|-----|----------|---------------|
-| 1   | Ctrl+C   | Hot Pink      |
-| 2   | Ctrl+V   | Turquoise     |
-| 3   | Ctrl+X   | Orange        |
-| 4   | Ctrl+Z   | Purple        |
-| 5   | Ctrl+Y   | Lime Green    |
+_This shows the full layout of the macropad, including keys, controller, and LED placement._
 
 ---
 
-## 🧪 Installation
+## schematic
 
-### 1. Flash CircuitPython
+![Schematic](images/schematic.png)
 
-Follow [Adafruit’s guide](https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython) to flash CircuitPython onto the XIAO RP2040.
-
-### 2. Install Required Libraries
-
-Use [Circup](https://learn.adafruit.com/using-circup) or copy these manually into `lib/` on the board:
-
-- `kmk/`
-- `adafruit_hid/`
-- `neopixel.mpy`
-
-### 3. Add Your Firmware
-
-Save the `code.py` file (from this repo) onto the root of the CIRCUITPY drive.
+_The schematic shows the wiring of 5 pushbuttons to GPIO pins and two SK6812MINI RGB LEDs controlled via a single data line._
 
 ---
 
-## 🚀 Usage
+## PCB layout:
 
-- Plug into USB — it acts as a keyboard!
-- Press any button to trigger a shortcut and light up the LEDs.
-- You can edit the macros and colors inside `code.py`.
+![PCB Layout](images/pcb_layout.png)
 
----
-
-## 🖼️ Preview
-
-![PCB Layout](./images/pcb_layout.png)
+_The custom PCB was designed in KiCad. Buttons are routed directly to GPIOs, and the SK6812MINI LEDs are positioned symmetrically for visual balance._
 
 ---
 
-## 🛠️ Customize
+## case design & assembly
 
-Want to:
+![Case Rendering](images/bottomCase_CAD.png)
+![Case Rendering](images/topCase_CAD.png)
 
-- Change shortcuts? → Edit the `keyboard.keymap` list
-- Change colors? → Edit the `COLORS` list in `code.py`
-- Add layers, encoders, OLEDs? → KMK can handle it!
+_This image shows how the case pieces fit together. The design supports top plate mounting for the buttons and a cutout for USB access to the XIAO RP2040._
 
-Let me know if you’d like advanced config examples.
-
----
-
-## 📄 License
-
-MIT License — open source and remix-friendly!
+- **Top Plate:** Holds all 5 switches in place
+- **Bottom Plate:** Secures the PCB from underneath
+- **Standoffs/Screws:** Keep both plates sandwiched
 
 ---
 
-## ✨ Credits
+## Bill of Materials (BOM)
 
-- Designed by Natasha Doan
-- Powered by [KMK Firmware](https://github.com/KMKfw/kmk_firmware)
-- Built with ❤️ and tactile joy
+| Qty | Component              | Description                             | Part/Link                        |
+|-----|------------------------|-----------------------------------------|----------------------------------|
+| 1   | XIAO RP2040            | Microcontroller (tiny + USB-C)          | [Seeed XIAO RP2040](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html) |
+| 5   | Tactile Switches       | Mechanical push buttons (through-hole)  | [e.g., MX-compatible or 6mm tact] |
+| 2   | SK6812MINI LEDs        | Addressable RGB LED (WS2812-compatible) | [SK6812MINI](https://www.adafruit.com/product/3484) |
+| 1   | PCB                    | Custom PCB for layout                   | _Generated via KiCad_           |
+| 1   | Case (3D-printed)      | Top and bottom shell                    | _Printed or laser-cut acrylic_  |
+| 5   | Resistors (optional)   | Pull-up resistors (not needed with KMK) | _Usually 10kΩ, optional_        |
+| -   | Screws/Standoffs       | M2 or M3 depending on hole size         | _To secure case_                |
+
+---
+
+## features of this pad:
+- reactive RGB LEDs (each key sets a unique color) - pink, orange, turquoise, green, or purple!
+- 5 dedicated macros (copy, paste, cut, undo, redo)
+- open-source firmware using KMK (CircuitPython)
+
+---
+
+## ways to customize:
+
+- modify the colors or key actions in `code.py`
+- add extra LEDs or an encoder
+- create a different case design in Fusion 360
+
+---
+
+## credits + license:
+
+Designed with fun & exhaustion! This took me multiple days to get working as it was my first time working with hardware~ Glad I tried and learned!
 
