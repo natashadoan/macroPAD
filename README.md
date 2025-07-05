@@ -7,7 +7,7 @@ This was my very first time using Kicad and designing a PCB, which was actually 
 ---
 ## an overview
 
-![Hackpad Overview](images/hackpad_overview.png)
+![Hackpad Overview](images/assembled_macroPAD.png)
 
 _My overview shows the entire macropad, including where the 5 keys are located, the PCB, and the top and bottom covers_
 
