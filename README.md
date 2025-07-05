@@ -1,14 +1,15 @@
 # Natasha’s Sensory Fidget Macropad!
 
-A 5-key tactile RGB macropad built with the Seeed Studio XIAO RP2040. This project is designed for sensory feedback, creative expression, and workflow speed — featuring bright colored LEDs that change with each keypress.
+A 5-key tactile RGB macropad built with the Seeed Studio XIAO RP2040. This project is designed for sensory feedback, creative expression, and workflow speed, featuring bright colored LEDs that change with each keypress. It can be used as a stress/anxiety/boredom reliever or for functional keyboard shortcuts.
+
+This was my very first time using Kicad and designing a PCB, which was actually very fun! My friends and I go to artisan pop up markets in my hometown often, and I always see keypad fidget toys, so when I saw the beginner friendly project was a hackpad, I knew I had to attempt it!
 
 ---
-
 ## an overview
 
 ![Hackpad Overview](images/hackpad_overview.png)
 
-_This shows the full layout of the macropad, including keys, controller, and LED placement._
+_My overview shows the entire macropad, including where the 5 keys are located, the PCB, and the top and bottom covers_
 
 ---
 
@@ -16,7 +17,7 @@ _This shows the full layout of the macropad, including keys, controller, and LED
 
 ![Schematic](images/schematic.png)
 
-_The schematic shows the wiring of 5 pushbuttons to GPIO pins and two SK6812MINI RGB LEDs controlled via a single data line._
+_My schematic uses 5 pushbuttons to GPIO pins and two SK6812MINI RGB LEDs connected with one line_
 
 ---
 
@@ -24,7 +25,7 @@ _The schematic shows the wiring of 5 pushbuttons to GPIO pins and two SK6812MINI
 
 ![PCB Layout](images/pcb_layout.png)
 
-_The custom PCB was designed in KiCad. Buttons are routed directly to GPIOs, and the SK6812MINI LEDs are positioned symmetrically for visual balance._
+_My PCB was designed in KiCad (first time!). Buttons are routed directly to the GPIOs, and my SK6812MINI LEDs flank either side of the of controller._
 
 ---
 
@@ -33,11 +34,11 @@ _The custom PCB was designed in KiCad. Buttons are routed directly to GPIOs, and
 ![Case Rendering](images/bottomCase_CAD.png)
 ![Case Rendering](images/topCase_CAD.png)
 
-_This image shows how the case pieces fit together. The design supports top plate mounting for the buttons and a cutout for USB access to the XIAO RP2040._
+_My top and bottom cases can be attached with 4 screws on each corner of the case, and adequately hold the PCB and 5 buttons._
 
 - **Top Plate:** Holds all 5 switches in place
 - **Bottom Plate:** Secures the PCB from underneath
-- **Standoffs/Screws:** Keep both plates sandwiched
+- **Standoffs/Screws:** Holds together the entire case
 
 ---
 
@@ -57,16 +58,8 @@ _This image shows how the case pieces fit together. The design supports top plat
 
 ## features of this pad:
 - reactive RGB LEDs (each key sets a unique color) - pink, orange, turquoise, green, or purple!
-- 5 dedicated macros (copy, paste, cut, undo, redo)
-- open-source firmware using KMK (CircuitPython)
-
----
-
-## ways to customize:
-
-- modify the colors or key actions in `code.py`
-- add extra LEDs or an encoder
-- create a different case design in Fusion 360
+- 5 dedicated macro keys (copy, paste, cut, undo, redo)
+- open-source firmware using KMK (it was CircuitPython)
 
 ---
 
