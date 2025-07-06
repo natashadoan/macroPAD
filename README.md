@@ -1,6 +1,6 @@
 # Natasha’s Sensory Fidget Macropad!
 
-Here's my project: a 5-key fidget hackpad based off the starter project offered on highway. It was created as a way to learn to use Kicad and design hardware. Inside, there is a XIAO RP2040 microcontroller, 2 RGB LEDs whose colors can changes, and can be used as a stress/anxiety/boredom reliever or for functional keyboard shortcuts. The case is made of 2 parts: a bottom and a top, with the top having hole cutouts f9or the 5 keys.
+Here's my project: a 5-key fidget hackpad based off the starter project offered on highway. It was created as a way to learn to use Kicad and design hardware. Inside, there is a XIAO RP2040 microcontroller, 2 RGB LEDs whose colors can changes, and can be used as a stress/anxiety/boredom reliever or for functional keyboard shortcuts. The case is made of 2 parts: a bottom and a top, with the top having hole cutouts for the 5 keys.
 
 This was my very first time using Kicad and designing a PCB, which was actually very fun! My friends and I go to artisan pop up markets in my hometown often, and I always see keypad fidget toys, so when I saw the beginner friendly project was a hackpad, I knew I had to attempt it.
 
