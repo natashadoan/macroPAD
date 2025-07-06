@@ -32,11 +32,11 @@ This was my very first time using Kicad and designing a PCB, which was actually 
 
 ## Bill of Materials (BOM)
 
-- (1) XIAO PR2040 Microcontroller - https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html
-- (5) Tactile Switches - https://www.amazon.com/Momentary-Pushbutton-Switches-Breadboard-Electronic/dp/B09R3VZ5TN/ref=asc_df_B09R42NFGN?mcid=3442987eead832abb6c81ebd9b9579d4&hvocijid=10889451719894065161-B09R42NFGN-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=10889451719894065161&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198292&hvtargid=pla-2281435178778&th=1 
-- (2) SK6812MINI LEDs  - https://www.adafruit.com/product/3484 
+- (1) XIAO PR2040 Microcontroller - https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html ($3.99)
+- (5) Tactile Switches - https://www.amazon.com/Momentary-Pushbutton-Switches-Breadboard-Electronic/dp/B09R3VZ5TN/ref=asc_df_B09R42NFGN?mcid=3442987eead832abb6c81ebd9b9579d4&hvocijid=10889451719894065161-B09R42NFGN-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=10889451719894065161&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198292&hvtargid=pla-2281435178778&th=1 ($5.99)
+- (2) SK6812MINI LEDs  - https://www.adafruit.com/product/3484 ($4.95)
 - (1) PCB
-- (4) 3mm Screws (securing the case) - https://www.amazon.com/M3-0-50-30mm-Stainless-Countersunk-MonsterBolts/dp/B078YWMP4R/ref=asc_df_B078YXQRYX?mcid=d6a2a29557ec310eb7b613e21eae92bd&hvocijid=14792519188918646431-B078YXQRYX-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=14792519188918646431&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198292&hvtargid=pla-2281435176698&th=1 
+- (4) 3mm Screws (securing the case) - https://www.amazon.com/M3-0-50-30mm-Stainless-Countersunk-MonsterBolts/dp/B078YWMP4R/ref=asc_df_B078YXQRYX?mcid=d6a2a29557ec310eb7b613e21eae92bd&hvocijid=14792519188918646431-B078YXQRYX-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=14792519188918646431&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198292&hvtargid=pla-2281435176698&th=1 ($4.65)
  The case is 3D printed (top and bottom)
 
 ---
